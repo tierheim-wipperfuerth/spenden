@@ -7,12 +7,20 @@ const router = createRouter({
     {
       path: '/',
       name: '1',
-      component: Slide1
+      component: Slide1,
     },
     {
       path: '/2',
       name: '2',
       component: () => import('../views/2.vue')
+    }, {
+      path: '/datenschutz',
+      name: 'Datenschutz',
+      component: () => import('../views/DataprotectionView.vue')
+    }, {
+      path: '/impressum',
+      name: 'Impressum',
+      component: () => import('../views/ImprintView.vue')
     }
   ]
 })

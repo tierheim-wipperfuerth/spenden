@@ -9,6 +9,6 @@
         font-size: 44px;
         line-height: 44px;
         font-family: 'Passion One', sans-serif;
-        text-decoration: uppercase;
+        text-transform: uppercase;
     }
 </style>
