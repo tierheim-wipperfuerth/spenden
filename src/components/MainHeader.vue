@@ -21,5 +21,11 @@
         width: 100%;
         padding: 12px var(--side-gap);
     }
+    .main-header__inside {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        text-align: right;
+    }
 
 </style>

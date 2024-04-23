@@ -13,6 +13,14 @@ const router = createRouter({
       path: '/2',
       name: '2',
       component: () => import('../views/2.vue')
+    },{
+      path: '/3',
+      name: '3',
+      component: () => import('../views/3.vue')
+    },{
+      path: '/4',
+      name: '4',
+      component: () => import('../views/4.vue')
     }, {
       path: '/datenschutz',
       name: 'Datenschutz',

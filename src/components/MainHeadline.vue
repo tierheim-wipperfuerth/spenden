@@ -11,4 +11,18 @@
         font-family: 'Passion One', sans-serif;
         text-transform: uppercase;
     }
+
+    @media screen and (min-width: 768px) {
+        .main-headline {
+            font-size: 64px;
+            line-height: 64px;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .main-headline {
+            font-size: 84px;
+            line-height: 84px;
+        }
+    }
 </style>

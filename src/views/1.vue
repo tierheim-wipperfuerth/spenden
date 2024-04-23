@@ -4,11 +4,13 @@
   import MainText from '@/components/MainText.vue';
   import SlideCount from '@/components/SlideCount.vue';
   import NextButton from '@/components/NextButton.vue';
+  import ImageGallery from '@/components/ImageGallery.vue';
 </script>
 
 <template>
   <section>
-     <LargeContainer class="large-container--blue">
+     <LargeContainer class="large-container--blue large-container--no-bottom-padding">
+      <div class="large-container__content">
         <SlideCount />
         <MainHeadline>Wir brauchen dich. Es wird eng für uns.</MainHeadline>
         <MainText>
@@ -16,6 +18,12 @@
           <p>Warum wir ganz dringend Hilfe brauchen, zeigen wir dir hier.</p>
           <NextButton text="Los geht's" />
         </MainText>
+      </div>
+      <ImageGallery />
       </LargeContainer>
   </section>
 </template>
+
+<style>
+
+</style>

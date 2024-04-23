@@ -29,6 +29,7 @@
 <style>
 .main-footer {
     background-color: #F5F5F5;
+    position: relative;
 }
 .main-footer__inside {
     padding: 24px var(--side-gap);

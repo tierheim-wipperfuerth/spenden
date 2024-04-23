@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue';
 import BaseButton from './BaseButton.vue';
 import ArrowLeft from './icons/ArrowRight.vue';
 import { useKeyboardNav } from '../composables/keyboard-nav';

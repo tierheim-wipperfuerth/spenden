@@ -16,4 +16,12 @@
     p {
         margin-bottom: 24px;
     }
+
+    @media screen and (min-width: 1440px) {
+        .main-text {
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+    }
 </style>
