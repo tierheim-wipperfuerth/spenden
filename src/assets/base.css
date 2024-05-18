@@ -30,6 +30,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 .image {
   border-radius: 20px;
 }
