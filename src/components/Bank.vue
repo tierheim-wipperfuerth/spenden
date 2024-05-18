@@ -2,7 +2,7 @@
 
     <div class="bank">
         <p class="bank__text">Tierschutzverein Wipperfürth e.V.<br />IBAN: DE49 3706 9125 5109 3390 18<br />BIC: GENODED1RKO</p>
-        <BaseButton class="bank__button base-button--blue">
+        <BaseButton class="bank__button base-button--blue" @click="onClick">
 
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 9H11C9.89543 9 9 9.89543 9 11V20C9 21.1046 9.89543 22 11 22H20C21.1046 22 22 21.1046 22 20V11C22 9.89543 21.1046 9 20 9Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,6 +21,12 @@
 <script setup lang="ts">
 import BaseButton from '@/components/BaseButton.vue';
 import PaypalButton from '@/components/PaypalButton.vue';
+
+
+function onClick () {
+    navigator.clipboard.writeText('Tierschutzverein Wipperfürth e.V. IBAN: DE49 3706 9125 5109 3390 18 BIC: GENODED1RKO');
+}
+
 </script>
 
 <style>
