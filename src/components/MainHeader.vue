@@ -20,6 +20,7 @@
         left: 0;
         width: 100%;
         padding: 12px var(--side-gap);
+        z-index: 1000;
     }
     .main-header__inside {
         width: 100%;

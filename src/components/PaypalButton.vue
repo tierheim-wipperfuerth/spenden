@@ -27,6 +27,9 @@
         .paypal-button {
             max-width: 230px;
         }
+        .paypal-button--full  {
+            max-width: inherit;
+        }
         
     }
 

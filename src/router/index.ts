@@ -26,6 +26,18 @@ const router = createRouter({
       name: '5',
       component: () => import('../views/5.vue')
     },{
+      path: '/6',
+      name: '6',
+      component: () => import('../views/6.vue')
+    },{
+      path: '/7',
+      name: '7',
+      component: () => import('../views/7.vue')
+    }, {
+      path: '/8',
+      name: '8',
+      component: () => import('../views/8.vue')
+    },{
       path: '/datenschutz',
       name: 'Datenschutz',
       component: () => import('../views/DataprotectionView.vue')

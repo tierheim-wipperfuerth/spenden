@@ -9,7 +9,7 @@
 
 <template>
   <section>
-     <LargeContainer class="large-container--blue large-container--no-bottom-padding">
+     <LargeContainer class="large-container--blue large-container--no-bottom-padding-large">
       <div class="large-container__content">
         <SlideCount />
         <MainHeadline>Wir brauchen dich. Es wird eng für uns.</MainHeadline>

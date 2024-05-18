@@ -26,6 +26,9 @@
     .large-container--no-bottom-padding {
         padding-bottom: 0;
     }
+    .large-container--no-bottom-padding-large {
+        padding-bottom: 0;
+    }
 
     .large-container--no-side-padding .large-container__content {
         padding-left: var(--side-gap);
@@ -76,7 +79,10 @@
         }
         .large-container--flex-column {
             flex-direction: column;
-            
+           
+        }
+        .large-container--no-bottom-padding-large {
+            padding-bottom: 100px;
         }
         .large-container--flex-column .large-container__content {
             padding-bottom: 80px;

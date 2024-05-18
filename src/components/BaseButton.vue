@@ -23,5 +23,13 @@
     cursor: pointer;
     gap: 10px;
 }
+.base-button--blue {
+    background-color: #194186;
+    color: #FFFFFF;
+}
+.base-button--yellow {
+    background-color: #FFCB38;
+    color: #002A7C;
+}
 
 </style>
