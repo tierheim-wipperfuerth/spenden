@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Slide1 from '../views/1.vue'
 
 const router = createRouter({
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
