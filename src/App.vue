@@ -6,14 +6,16 @@ import MainFooter from './components/MainFooter.vue';
 
 const { init } = useKeyboardNav();
 init();
-
 useHead({
   title: 'Tierheim Wipperfürth | Spenden',
   meta: [
     {
       name: 'description',
       content: 'Wir brauchen deine Hilfe!',
-    },
+    }, {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1',
+    }
   ],
 });
 
@@ -31,9 +33,5 @@ useHead({
   <RouterView />
   <MainFooter />
 </template>
-
-<style scoped>
-
-</style>
 
 
