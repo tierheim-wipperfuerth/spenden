@@ -1,5 +1,5 @@
 <template>
-    <a href="#" class="paypal-button">Spende mit PayPal</a>
+    <a href="https://www.paypal.com/donate/?hosted_button_id=DQUXAC7E2S49Y" class="paypal-button">Spende mit PayPal</a>
 </template>
 
 <style>
