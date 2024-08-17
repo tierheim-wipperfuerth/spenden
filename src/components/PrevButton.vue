@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BaseButton from './BaseButton.vue';
-import ArrowLeft from './icons/ArrowRight.vue';
+import ArrowLeft from './icons/ArrowLeft.vue';
 import { useKeyboardNav } from '../composables/keyboard-nav';
 
 const keyboardNav = useKeyboardNav();
