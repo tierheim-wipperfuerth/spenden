@@ -7,7 +7,7 @@ import MainFooter from './components/MainFooter.vue';
 const { init } = useKeyboardNav();
 init();
 useHead({
-  title: 'Tierheim Wipperfürth | Spenden',
+  title: 'Tierheim Wipperfürth | Spenden',
   meta: [
     {
       name: 'description',
